@@ -4,6 +4,9 @@
     <Filter Include="Shura">
       <UniqueIdentifier>{28FA170E-940E-40BF-5D90-E31EC9633CF0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Shura\Events">
+      <UniqueIdentifier>{0CA9D96D-F80B-6912-A191-A1C88DD33495}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Shura.h" />
@@ -15,6 +18,18 @@
     </ClInclude>
     <ClInclude Include="src\Shura\EntryPoint.h">
       <Filter>Shura</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Shura\Events\ApplicationEvent.h">
+      <Filter>Shura\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Shura\Events\Event.h">
+      <Filter>Shura\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Shura\Events\KeyEvent.h">
+      <Filter>Shura\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Shura\Events\MouseEvent.h">
+      <Filter>Shura\Events</Filter>
     </ClInclude>
     <ClInclude Include="src\Shura\Log.h">
       <Filter>Shura</Filter>
