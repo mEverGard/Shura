@@ -31,5 +31,4 @@ namespace Shura {
 #define SH_FATAL(...)	::Shura::Log::getClientLogger()->fatal(__VA_ARGS__)
 
 
-// if dist build
-#define HZ_CORE_INFO
+#define SH_CORE_INFO
