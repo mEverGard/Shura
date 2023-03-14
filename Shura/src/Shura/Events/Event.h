@@ -2,7 +2,6 @@
 
 #include "Shura/Core.h"
 
-#include <string>
 #include <functional>
 
 namespace Shura {

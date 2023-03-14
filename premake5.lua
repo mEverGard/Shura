@@ -20,6 +20,9 @@ project "Shura"
     objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 
 
+	pchheader "hzpch.h"
+	pchsource "Shura/src/hzpch.cpp"
+
     files {
         "%{prj.name}/src/**.h",
         "%{prj.name}/src/**.cpp"

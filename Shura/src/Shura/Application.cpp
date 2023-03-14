@@ -1,3 +1,4 @@
+#include "hzpch.h"
 #include "Application.h"
 #include "Shura/Events/ApplicationEvent.h"
 #include "Shura/Log.h"

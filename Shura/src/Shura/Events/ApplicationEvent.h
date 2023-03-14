@@ -2,8 +2,6 @@
 
 #include "Event.h"
 
-#include <sstream>
-
 namespace Shura {
 
 	class SHURA_API WindowResizeEvent : public Event
